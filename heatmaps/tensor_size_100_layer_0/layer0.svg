@@ -1,0 +1,136 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="900px" height="500px"
+    viewBox="0 0 27600 23000">
+<title>Sample Temperature Map For HotSpot Grid Model</title>
+<g id="floorplan" style="stroke: none; fill: red;">
+	<rect x="0" y="0" width="2875" height="2875" style="fill:rgb(0,0,255)" />
+	<rect x="2875" y="0" width="2875" height="2875" style="fill:rgb(0,51,255)" />
+	<rect x="5750" y="0" width="2875" height="2875" style="fill:rgb(0,102,255)" />
+	<rect x="8625" y="0" width="2875" height="2875" style="fill:rgb(0,102,255)" />
+	<rect x="11500" y="0" width="2875" height="2875" style="fill:rgb(0,102,255)" />
+	<rect x="14375" y="0" width="2875" height="2875" style="fill:rgb(0,102,255)" />
+	<rect x="17250" y="0" width="2875" height="2875" style="fill:rgb(0,51,255)" />
+	<rect x="20125" y="0" width="2875" height="2875" style="fill:rgb(0,51,255)" />
+	<rect x="0" y="2875" width="2875" height="2875" style="fill:rgb(0,102,255)" />
+	<rect x="2875" y="2875" width="2875" height="2875" style="fill:rgb(0,204,255)" />
+	<rect x="5750" y="2875" width="2875" height="2875" style="fill:rgb(0,255,255)" />
+	<rect x="8625" y="2875" width="2875" height="2875" style="fill:rgb(0,255,204)" />
+	<rect x="11500" y="2875" width="2875" height="2875" style="fill:rgb(0,255,204)" />
+	<rect x="14375" y="2875" width="2875" height="2875" style="fill:rgb(0,255,204)" />
+	<rect x="17250" y="2875" width="2875" height="2875" style="fill:rgb(0,204,255)" />
+	<rect x="20125" y="2875" width="2875" height="2875" style="fill:rgb(0,102,255)" />
+	<rect x="0" y="5750" width="2875" height="2875" style="fill:rgb(0,204,255)" />
+	<rect x="2875" y="5750" width="2875" height="2875" style="fill:rgb(0,255,102)" />
+	<rect x="5750" y="5750" width="2875" height="2875" style="fill:rgb(0,255,0)" />
+	<rect x="8625" y="5750" width="2875" height="2875" style="fill:rgb(51,255,0)" />
+	<rect x="11500" y="5750" width="2875" height="2875" style="fill:rgb(51,255,0)" />
+	<rect x="14375" y="5750" width="2875" height="2875" style="fill:rgb(0,255,0)" />
+	<rect x="17250" y="5750" width="2875" height="2875" style="fill:rgb(0,255,102)" />
+	<rect x="20125" y="5750" width="2875" height="2875" style="fill:rgb(0,255,255)" />
+	<rect x="0" y="8625" width="2875" height="2875" style="fill:rgb(0,255,0)" />
+	<rect x="2875" y="8625" width="2875" height="2875" style="fill:rgb(255,204,0)" />
+	<rect x="5750" y="8625" width="2875" height="2875" style="fill:rgb(255,51,0)" />
+	<rect x="8625" y="8625" width="2875" height="2875" style="fill:rgb(255,0,0)" />
+	<rect x="11500" y="8625" width="2875" height="2875" style="fill:rgb(255,0,0)" />
+	<rect x="14375" y="8625" width="2875" height="2875" style="fill:rgb(255,51,0)" />
+	<rect x="17250" y="8625" width="2875" height="2875" style="fill:rgb(255,204,0)" />
+	<rect x="20125" y="8625" width="2875" height="2875" style="fill:rgb(0,255,51)" />
+	<rect x="0" y="11500" width="2875" height="2875" style="fill:rgb(0,255,0)" />
+	<rect x="2875" y="11500" width="2875" height="2875" style="fill:rgb(255,204,0)" />
+	<rect x="5750" y="11500" width="2875" height="2875" style="fill:rgb(255,51,0)" />
+	<rect x="8625" y="11500" width="2875" height="2875" style="fill:rgb(255,0,0)" />
+	<rect x="11500" y="11500" width="2875" height="2875" style="fill:rgb(255,0,0)" />
+	<rect x="14375" y="11500" width="2875" height="2875" style="fill:rgb(255,51,0)" />
+	<rect x="17250" y="11500" width="2875" height="2875" style="fill:rgb(255,204,0)" />
+	<rect x="20125" y="11500" width="2875" height="2875" style="fill:rgb(0,255,51)" />
+	<rect x="0" y="14375" width="2875" height="2875" style="fill:rgb(0,204,255)" />
+	<rect x="2875" y="14375" width="2875" height="2875" style="fill:rgb(0,255,102)" />
+	<rect x="5750" y="14375" width="2875" height="2875" style="fill:rgb(0,255,0)" />
+	<rect x="8625" y="14375" width="2875" height="2875" style="fill:rgb(51,255,0)" />
+	<rect x="11500" y="14375" width="2875" height="2875" style="fill:rgb(51,255,0)" />
+	<rect x="14375" y="14375" width="2875" height="2875" style="fill:rgb(0,255,0)" />
+	<rect x="17250" y="14375" width="2875" height="2875" style="fill:rgb(0,255,102)" />
+	<rect x="20125" y="14375" width="2875" height="2875" style="fill:rgb(0,255,255)" />
+	<rect x="0" y="17250" width="2875" height="2875" style="fill:rgb(0,102,255)" />
+	<rect x="2875" y="17250" width="2875" height="2875" style="fill:rgb(0,204,255)" />
+	<rect x="5750" y="17250" width="2875" height="2875" style="fill:rgb(0,255,255)" />
+	<rect x="8625" y="17250" width="2875" height="2875" style="fill:rgb(0,255,204)" />
+	<rect x="11500" y="17250" width="2875" height="2875" style="fill:rgb(0,255,204)" />
+	<rect x="14375" y="17250" width="2875" height="2875" style="fill:rgb(0,255,204)" />
+	<rect x="17250" y="17250" width="2875" height="2875" style="fill:rgb(0,204,255)" />
+	<rect x="20125" y="17250" width="2875" height="2875" style="fill:rgb(0,102,255)" />
+	<rect x="0" y="20125" width="2875" height="2875" style="fill:rgb(0,0,255)" />
+	<rect x="2875" y="20125" width="2875" height="2875" style="fill:rgb(0,51,255)" />
+	<rect x="5750" y="20125" width="2875" height="2875" style="fill:rgb(0,102,255)" />
+	<rect x="8625" y="20125" width="2875" height="2875" style="fill:rgb(0,102,255)" />
+	<rect x="11500" y="20125" width="2875" height="2875" style="fill:rgb(0,102,255)" />
+	<rect x="14375" y="20125" width="2875" height="2875" style="fill:rgb(0,102,255)" />
+	<rect x="17250" y="20125" width="2875" height="2875" style="fill:rgb(0,51,255)" />
+	<rect x="20125" y="20125" width="2875" height="2875" style="fill:rgb(0,51,255)" />
+	<line x1="0" y1="17250" x2="1500" y2="17250" style="stroke:black;stroke-width:30" />
+	<line x1="0" y1="17250" x2="0" y2="23000" style="stroke:black;stroke-width:30" />
+	<line x1="1500" y1="17250" x2="1500" y2="23000" style="stroke:black;stroke-width:30" />
+	<line x1="0" y1="23000" x2="1500" y2="23000" style="stroke:black;stroke-width:30" />
+	<text x="100" y="17450" fill="black" text_anchor="start" style="font-size:180" > MEM1 </text>
+	<line x1="0" y1="0" x2="1500" y2="0" style="stroke:black;stroke-width:30" />
+	<line x1="0" y1="0" x2="0" y2="5750" style="stroke:black;stroke-width:30" />
+	<line x1="1500" y1="0" x2="1500" y2="5750" style="stroke:black;stroke-width:30" />
+	<line x1="0" y1="5750" x2="1500" y2="5750" style="stroke:black;stroke-width:30" />
+	<text x="100" y="200" fill="black" text_anchor="start" style="font-size:180" > MEM2 </text>
+	<line x1="21500" y1="17250" x2="23000" y2="17250" style="stroke:black;stroke-width:30" />
+	<line x1="21500" y1="17250" x2="21500" y2="23000" style="stroke:black;stroke-width:30" />
+	<line x1="23000" y1="17250" x2="23000" y2="23000" style="stroke:black;stroke-width:30" />
+	<line x1="21500" y1="23000" x2="23000" y2="23000" style="stroke:black;stroke-width:30" />
+	<text x="21600" y="17450" fill="black" text_anchor="start" style="font-size:180" > MEM3 </text>
+	<line x1="21500" y1="11500" x2="23000" y2="11500" style="stroke:black;stroke-width:30" />
+	<line x1="21500" y1="11500" x2="21500" y2="17250" style="stroke:black;stroke-width:30" />
+	<line x1="23000" y1="11500" x2="23000" y2="17250" style="stroke:black;stroke-width:30" />
+	<line x1="21500" y1="17250" x2="23000" y2="17250" style="stroke:black;stroke-width:30" />
+	<text x="21600" y="11700" fill="black" text_anchor="start" style="font-size:180" > MEM4 </text>
+	<line x1="21500" y1="5750" x2="23000" y2="5750" style="stroke:black;stroke-width:30" />
+	<line x1="21500" y1="5750" x2="21500" y2="11500" style="stroke:black;stroke-width:30" />
+	<line x1="23000" y1="5750" x2="23000" y2="11500" style="stroke:black;stroke-width:30" />
+	<line x1="21500" y1="11500" x2="23000" y2="11500" style="stroke:black;stroke-width:30" />
+	<text x="21600" y="5950" fill="black" text_anchor="start" style="font-size:180" > MEM5 </text>
+	<line x1="21500" y1="0" x2="23000" y2="0" style="stroke:black;stroke-width:30" />
+	<line x1="21500" y1="0" x2="21500" y2="5750" style="stroke:black;stroke-width:30" />
+	<line x1="23000" y1="0" x2="23000" y2="5750" style="stroke:black;stroke-width:30" />
+	<line x1="21500" y1="5750" x2="23000" y2="5750" style="stroke:black;stroke-width:30" />
+	<text x="21600" y="200" fill="black" text_anchor="start" style="font-size:180" > MEM6 </text>
+	<line x1="1500" y1="0" x2="21500" y2="0" style="stroke:black;stroke-width:30" />
+	<line x1="1500" y1="0" x2="1500" y2="23000" style="stroke:black;stroke-width:30" />
+	<line x1="21500" y1="0" x2="21500" y2="23000" style="stroke:black;stroke-width:30" />
+	<line x1="1500" y1="23000" x2="21500" y2="23000" style="stroke:black;stroke-width:30" />
+	<text x="1600" y="200" fill="black" text_anchor="start" style="font-size:180" > PLACEHLDR </text>
+	<rect x="25300" y="1150" width="1150" height="575" style="fill:rgb(255,0,0); stroke:none" />
+	<text x="24150" y="1437.5" fill="black" text_anchor="start" style="font-size:250" > 357.99 </text>
+	<rect x="25300" y="1725" width="1150" height="575" style="fill:rgb(255,51,0); stroke:none" />
+	<rect x="25300" y="2300" width="1150" height="575" style="fill:rgb(255,102,0); stroke:none" />
+	<rect x="25300" y="2875" width="1150" height="575" style="fill:rgb(255,153,0); stroke:none" />
+	<text x="24150" y="3162.5" fill="black" text_anchor="start" style="font-size:250" > 354.20 </text>
+	<rect x="25300" y="3450" width="1150" height="575" style="fill:rgb(255,204,0); stroke:none" />
+	<rect x="25300" y="4025" width="1150" height="575" style="fill:rgb(255,255,0); stroke:none" />
+	<rect x="25300" y="4600" width="1150" height="575" style="fill:rgb(204,255,0); stroke:none" />
+	<text x="24150" y="4887.5" fill="black" text_anchor="start" style="font-size:250" > 350.41 </text>
+	<rect x="25300" y="5175" width="1150" height="575" style="fill:rgb(153,255,0); stroke:none" />
+	<rect x="25300" y="5750" width="1150" height="575" style="fill:rgb(102,255,0); stroke:none" />
+	<rect x="25300" y="6325" width="1150" height="575" style="fill:rgb(51,255,0); stroke:none" />
+	<text x="24150" y="6612.5" fill="black" text_anchor="start" style="font-size:250" > 346.62 </text>
+	<rect x="25300" y="6900" width="1150" height="575" style="fill:rgb(0,255,0); stroke:none" />
+	<rect x="25300" y="7475" width="1150" height="575" style="fill:rgb(0,255,51); stroke:none" />
+	<rect x="25300" y="8050" width="1150" height="575" style="fill:rgb(0,255,102); stroke:none" />
+	<text x="24150" y="8337.5" fill="black" text_anchor="start" style="font-size:250" > 342.83 </text>
+	<rect x="25300" y="8625" width="1150" height="575" style="fill:rgb(0,255,153); stroke:none" />
+	<rect x="25300" y="9200" width="1150" height="575" style="fill:rgb(0,255,204); stroke:none" />
+	<rect x="25300" y="9775" width="1150" height="575" style="fill:rgb(0,255,255); stroke:none" />
+	<text x="24150" y="10062.5" fill="black" text_anchor="start" style="font-size:250" > 339.04 </text>
+	<rect x="25300" y="10350" width="1150" height="575" style="fill:rgb(0,204,255); stroke:none" />
+	<rect x="25300" y="10925" width="1150" height="575" style="fill:rgb(0,153,255); stroke:none" />
+	<rect x="25300" y="11500" width="1150" height="575" style="fill:rgb(0,102,255); stroke:none" />
+	<text x="24150" y="11787.5" fill="black" text_anchor="start" style="font-size:250" > 335.25 </text>
+	<rect x="25300" y="12075" width="1150" height="575" style="fill:rgb(0,51,255); stroke:none" />
+	<rect x="25300" y="12650" width="1150" height="575" style="fill:rgb(0,0,255); stroke:none" />
+	<text x="24150" y="13225" fill="black" text_anchor="start" style="font-size:250" > 332.73 </text>
+</g>
+</svg>

@@ -1,0 +1,313 @@
+IBP- Instruction buffer (not used)
+ICP- Instruction cache (used)
+DCP- Data cache (not used)
+TCP- Texture cache (not used)
+CCP- Constant cache (not used)
+SHRDP- Shared memory / L1 cache (not used)
+RFP- Register file (used)
+SPP- Scalar processor (not used)
+SFUP- Special function unit (used)
+FPUP- Floating point unit (not used)
+SCHEDP- Warp scheduler (used)
+L2CP- L2 cache (used)
+MCP- Shared memory / L1 cache (used)
+NOCP- Interconnect network (used)
+DRAMP- DRAM (used)
+PIPEP- ?
+IDLE_COREP- Core (used)
+CONST_DYNAMICP- ?
+
+Dispatch unit, LD/ST (Load/Store unit), Uniform cache- (not found)
+
+Updated (all used)-
+
+IBP- Instruction buffer (consider in ICP)
+ICP- Instruction cache
+DCP- Data cache (L1)
+TCP- Texture cache (consider in CCP)
+CCP- Constant cache (uniform cache)
+SHRDP- Shared memory / L1 cache (consider in DCP)
+RFP- Register file
+SPP- Scalar processor (consider in COREP)
+SFUP- Special function unit
+FPUP- Floating point unit (consider in COREP)
+SCHEDP- Warp scheduler
+L2CP- L2 cache
+MCP- Memory controller (consider in DRAMP)
+NOCP- Interconnect network
+DRAMP- DRAM
+PIPEP- Pipeline (consider in COREP)
+IDLE_COREP- Core (CORE)
+CONST_DYNAMICP- Core (consider in COREP)
+
+Dispatch unit, LD/ST (Load/Store unit)- (not found)
+
+die area- 529 mm^2
+dimensions- 23 * 23 mm
+
+organization-
+
+					MULTISM2 (SM9 - SM16)
+DRAM2	SM9	SM10	SM11	SM12	SM13	SM14	SM15	SM16	DRAM6
+										DRAM5
+					L2
+										DRAM4
+DRAM1	SM1	SM2	SM3	SM4	SM5	SM6	SM7	SM8	DRAM3
+					MULTISM1 (SM1 - SM8)
+
+component dimensions-
+
+DRAM- 1.5 w * 5.75 h
+L2CACHE- 20 w * 2 h
+MULTISIM- 20 w * 10.5 h
+SM- 2.5 w * 10.5 h
+ICACHE- 2.5 w * 0.3 h
+WSCHED- 2.5 w * 0.35 h
+REGFILE- 2.5 w * 1 h
+CORES- 2 w * 7.5 h
+SFU- 0.25 w *  7.5 h
+NETW- 2.5 w * 0.3 h
+L1CACHE- 2.5 w * 0.4 h
+
+floorplan1-
+
+DRAM1	1.5	5.75	0	0
+DRAM2	1.5	5.75	0	17.25
+DRAM3	1.5	5.75	21.5	0
+DRAM4	1.5	5.75	21.5	5.75
+DRAM5	1.5	5.75	21.5	11.5
+DRAM6	1.5	5.75	21.5	17.25
+L2CACHE	20	2	1.5	10.5
+ICACHE1	2.5	0.3	1.5	0
+ICACHE2	2.5	0.3	4	0
+ICACHE3	2.5	0.3	6.5	0
+ICACHE4	2.5	0.3	9	0
+ICACHE5	2.5	0.3	11.5	0
+ICACHE6	2.5	0.3	14	0
+ICACHE7	2.5	0.3	16.5	0
+ICACHE8	2.5	0.3	19	0
+ICACHE9	2.5	0.3	1.5	22.7
+ICACHE10	2.5	0.3	4	22.7
+ICACHE11	2.5	0.3	6.5	22.7
+ICACHE12	2.5	0.3	9	22.7
+ICACHE13	2.5	0.3	11.5	22.7
+ICACHE14	2.5	0.3	14	22.7
+ICACHE15	2.5	0.3	16.5	22.7
+ICACHE16	2.5	0.3	19	22.7
+WSCHED1	2.5	0.35	1.5	0.3
+WSCHED2	2.5	0.35	4	0.3
+WSCHED3	2.5	0.35	6.5	0.3
+WSCHED4	2.5	0.35	9	0.3
+WSCHED5	2.5	0.35	11.5	0.3
+WSCHED6	2.5	0.35	14	0.3
+WSCHED7	2.5	0.35	16.5	0.3
+WSCHED8	2.5	0.35	19	0.3
+WSCHED9	2.5	0.35	1.5	22.35
+WSCHED10	2.5	0.35	4	22.35
+WSCHED11	2.5	0.35	6.5	22.35
+WSCHED12	2.5	0.35	9	22.35
+WSCHED13	2.5	0.35	11.5	22.35
+WSCHED14	2.5	0.35	14	22.35
+WSCHED15	2.5	0.35	16.5	22.35
+WSCHED16	2.5	0.35	19	22.35
+REGFILE1	2.5	1	1.5	1
+REGFILE2	2.5	1	4	1
+REGFILE3	2.5	1	6.5	1
+REGFILE4	2.5	1	9	1
+REGFILE5	2.5	1	11.5	1
+REGFILE6	2.5	1	14	1
+REGFILE7	2.5	1	16.5	1
+REGFILE8	2.5	1	19	1
+REGFILE9	2.5	1	1.5	21
+REGFILE10	2.5	1	4	21
+REGFILE11	2.5	1	6.5	21
+REGFILE12	2.5	1	9	21
+REGFILE13	2.5	1	11.5	21
+REGFILE14	2.5	1	14	21
+REGFILE15	2.5	1	16.5	21
+REGFILE16	2.5	1	19	21
+CORES1	2	7.5	1.5	2
+CORES2	2	7.5	4	2
+CORES3	2	7.5	6.5	2
+CORES4	2	7.5	9	2
+CORES5	2	7.5	11.5	2
+CORES6	2	7.5	14	2
+CORES7	2	7.5	16.5	2
+CORES8	2	7.5	19	2
+CORES9	2	7.5	1.5	13.5
+CORES10	2	7.5	4	13.5
+CORES11	2	7.5	6.5	13.5
+CORES12	2	7.5	9	13.5
+CORES13	2	7.5	11.5	13.5
+CORES14	2	7.5	14	13.5
+CORES15	2	7.5	16.5	13.5
+CORES16	2	7.5	19	13.5
+SFU1	0.25	7.5	3.75	2
+SFU2	0.25	7.5	6.25	2
+SFU3	0.25	7.5	8.75	2
+SFU4	0.25	7.5	11.25	2
+SFU5	0.25	7.5	13.75	2
+SFU6	0.25	7.5	16.25	2
+SFU7	0.25	7.5	18.75	2
+SFU8	0.25	7.5	21.25	2
+SFU9	0.25	7.5	3.75	13.5
+SFU10	0.25	7.5	6.25	13.5
+SFU11	0.25	7.5	8.75	13.5
+SFU12	0.25	7.5	11.25	13.5
+SFU13	0.25	7.5	13.75	13.5
+SFU14	0.25	7.5	16.25	13.5
+SFU15	0.25	7.5	18.75	13.5
+SFU16	0.25	7.5	21.25	13.5
+NETW1	2.5	0.3	1.5	9.5
+NETW2	2.5	0.3	4	9.5
+NETW3	2.5	0.3	6.5	9.5
+NETW4	2.5	0.3	9	9.5
+NETW5	2.5	0.3	11.5	9.5
+NETW6	2.5	0.3	14	9.5
+NETW7	2.5	0.3	16.5	9.5
+NETW8	2.5	0.3	19	9.5
+NETW9	2.5	0.3	1.5	13.2
+NETW10	2.5	0.3	4	13.2
+NETW11	2.5	0.3	6.5	13.2
+NETW12	2.5	0.3	9	13.2
+NETW13	2.5	0.3	11.5	13.2
+NETW14	2.5	0.3	14	13.2
+NETW15	2.5	0.3	16.5	13.2
+NETW16	2.5	0.3	19	13.2
+L1CACHE1	2.5	0.4	1.5	9.8
+L1CACHE2	2.5	0.4	4	9.8
+L1CACHE3	2.5	0.4	6.5	9.8
+L1CACHE4	2.5	0.4	9	9.8
+L1CACHE5	2.5	0.4	11.5	9.8
+L1CACHE6	2.5	0.4	14	9.8
+L1CACHE7	2.5	0.4	16.5	9.8
+L1CACHE8	2.5	0.4	19	9.8
+L1CACHE9	2.5	0.4	1.5	12.8
+L1CACHE10	2.5	0.4	4	12.8
+L1CACHE11	2.5	0.4	6.5	12.8
+L1CACHE12	2.5	0.4	9	12.8
+L1CACHE13	2.5	0.4	11.5	12.8
+L1CACHE14	2.5	0.4	14	12.8
+L1CACHE15	2.5	0.4	16.5	12.8
+L1CACHE16	2.5	0.4	19	12.8
+
+floorplan2-
+
+MEM same as DRAM
+L2C same as L2CACHE
+
+MEM1	1.5	5.75	0	0
+MEM2	1.5	5.75	0	17.25
+MEM3	1.5	5.75	21.5	0
+MEM4	1.5	5.75	21.5	5.75
+MEM5	1.5	5.75	21.5	11.5
+MEM6	1.5	5.75	21.5	17.25
+L2C	20	2	1.5	10.5
+SM1	2.5	10.5	1.5	0
+SM2	2.5	10.5	4	0
+SM3	2.5	10.5	6.5	0
+SM4	2.5	10.5	9	0
+SM5	2.5	10.5	11.5	0
+SM6	2.5	10.5	14	0
+SM7	2.5	10.5	16.5	0
+SM8	2.5	10.5	19	0
+SM9	2.5	10.5	1.5	12.5
+SM10	2.5	10.5	4	12.5
+SM11	2.5	10.5	6.5	12.5
+SM12	2.5	10.5	9	12.5
+SM13	2.5	10.5	11.5	12.5
+SM14	2.5	10.5	14	12.5
+SM15	2.5	10.5	16.5	12.5
+SM16	2.5	10.5	19	12.5
+
+floorplan3-
+
+DR same as DRAM
+L2CH same as L2CACHE
+
+DRM1	1.5	5.75	0	0
+DRM2	1.5	5.75	0	17.25
+DRM3	1.5	5.75	21.5	0
+DRM4	1.5	5.75	21.5	5.75
+DRM5	1.5	5.75	21.5	11.5
+DRM6	1.5	5.75	21.5	17.25
+L2CH	20	2	1.5	10.5
+MULTISM1	20	10.5	1.5	0
+MULTISM2	20	10.5	1.5	12.5
+
+min + max + avg + x + y / avg = 5
+
+min + max + x + y / avg = 4
+
+x + y = 4 * avg - min - max
+
+x1 + x2 + y1 + y2 = 4 * avg
+
+x1 + x2 = 2 * avg
+
+min < x1 < avg
+
+min < 2 * avg - x2 < avg
+
+x2 > avg
+
+y1 + y2 = 2 * avg
+
+avg < y1 < max
+
+avg < 2 * avg - y2 < max
+
+y2 < avg
+
+automate.sh info-
+
+# take 2 inputs, tensor dimension and layer id
+# do error checking on number of inputs, give help
+# do error checking on tensor dimension, should be > 0
+# do error checking on layer id, should be 0/2
+# check if required folders are there already (generated_files,
+# generated_files/app_cuda_versions, generated_files/cuobjdumps,
+# generated_files/ptx_files, generated_files/ptxas_files,
+# generated_files/gpgpusim_power_report_logs, generated_files/hotspot_outputs,
+# generated_files/hostpot_outputs/steady,
+# generated_files/hotspot_outputs/transient)
+# if these folders are not there, create them
+# move all generated files in the curr dir to their respective folders as above
+# get lineno for N in mat_mul.cu
+# using this lineno, replace tensor dimension obtained from cmd in macro
+# compile kernel using nvcc
+# check if ldd of object file grepped with "gpgpu-sim_distribution/lib/gcc-4.8.5/cuda-9010/release/libcudart.so.9.1"
+# gives any output, if not, return from script saying make -j8 might not have
+# been executed successfully for gpgpu-sim
+# run the object file, redirect the output to /dev/null
+# get the power report log file name in the current dir
+# pass this file name to python script to convert into .ptrace file
+# call hotspot with this .ptrace file saved in curr dir and other required files
+# for both steady and transient analysis, save outputs to corresponding folders
+# create new folder
+# generated_files/hotspot_outputs/tensor_size_<cmd0>_layer_<cmd1>
+# call the required python and perl scripts with this dir as the location to
+# save the heat map images
+
+power_report_to_ptrace_converter info-
+
+'''
+DRAMP- generate 5 (rows in ptrace) * 6 (DRAM1-6) random values between min and
+max having same avg across rows (same as MEM)
+L2C- 5 * 1 (L2CACHE) '' (same as L2C)
+IC- 5 * 16 (ICACHE1-16) ''
+SCHED- 5 * 16 (WSCHED1-16) random values between min * 2 and max * 2 having same
+avg * 2
+RF- 5 * 16 (REGFILE1-16)
+IDLE_CORE- 5 * 16 (CORES1-16) random values between min * 16 and max * 16 having
+same avg * 16
+SFU- 5 * 16 (SFU1-16) random values between min * 4 and max * 4 having same avg
+* 4
+NOC- 5 * 16 (NETW1-16) random values between min and max having same avg
+MC- 5 * 16 (L1CACHE1-16) ''
+
+SM1-16 power on every row will be corresponding ICACHE1-16 + WSCHED1-16 +
+REGFILE1-16 + CORES1-16 + SFU1-16 + NETW1-16 + L1CACHE1-16
+
+MULTISM1-2 power on every row will be SM1 + ... + SM8 and SM9 + ... + SM16
+'''

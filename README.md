@@ -7,4 +7,5 @@ Performing thermal analysis for the Nvidia GTX480 Fermi GPU architecture using t
 ### Simulators used-
 
 gpgpu-sim : https://github.com/gpgpu-sim/gpgpu-sim_distribution
+</br>
 HotSpot : https://github.com/uvahotspot/HotSpot
